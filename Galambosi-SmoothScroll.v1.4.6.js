@@ -1,6 +1,3 @@
-//scroll Seamless tab
-var $u=jQuery.noConflict();$u(document).ready(function(){$u('a[href*="#"]:not([href="#"])').click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var t=$u(this.hash);if((t=t.length?t:$u("[name="+this.hash.slice(1)+"]")).length)return $u("html, body").animate({scrollTop:t.offset().top},1e3),!1}})});
-
 //
 // SmoothScroll for websites v1.4.6 (Balazs Galambosi)
 // http://www.smoothscroll.net/
